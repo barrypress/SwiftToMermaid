@@ -7,13 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15253FEB2C76AF9800636889 /* Idioms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15253FEA2C76AF9800636889 /* Idioms.swift */; };
+		15253FF12C76BE0D00636889 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15253FF02C76BE0D00636889 /* ContentView.swift */; };
+		15569CBF2C4C3CAE00505623 /* SourceKittenFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 15569CBE2C4C3CAE00505623 /* SourceKittenFramework */; };
+		155EB4E02C4D7D7500D9E73F /* SourceKittenFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 155EB4DF2C4D7D7500D9E73F /* SourceKittenFramework */; };
+		157D532B2C754A45002CC772 /* RecentFilesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157D532A2C754A45002CC772 /* RecentFilesManager.swift */; };
 		159AB07F2C4C2FAB006C809B /* SwiftToMermaidApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159AB07E2C4C2FAB006C809B /* SwiftToMermaidApp.swift */; };
-		159AB0812C4C2FAB006C809B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159AB0802C4C2FAB006C809B /* ContentView.swift */; };
 		159AB0832C4C2FAD006C809B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 159AB0822C4C2FAD006C809B /* Assets.xcassets */; };
 		159AB0872C4C2FAD006C809B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 159AB0862C4C2FAD006C809B /* Preview Assets.xcassets */; };
-		159AB0912C4C2FAD006C809B /* SwiftToMermaidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159AB0902C4C2FAD006C809B /* SwiftToMermaidTests.swift */; };
+		159AB0912C4C2FAD006C809B /* ContentViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159AB0902C4C2FAD006C809B /* ContentViewModelTests.swift */; };
 		159AB09B2C4C2FAD006C809B /* SwiftToMermaidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159AB09A2C4C2FAD006C809B /* SwiftToMermaidUITests.swift */; };
 		159AB09D2C4C2FAD006C809B /* SwiftToMermaidUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159AB09C2C4C2FAD006C809B /* SwiftToMermaidUITestsLaunchTests.swift */; };
+		159AB0AB2C4C2FF1006C809B /* SwiftToMermaid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159AB0A92C4C2FF0006C809B /* SwiftToMermaid.swift */; };
+		159AB0AC2C4C2FF1006C809B /* PaneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159AB0AA2C4C2FF1006C809B /* PaneView.swift */; };
+		159AB0AF2C4C31F5006C809B /* SwiftBasicFormat in Frameworks */ = {isa = PBXBuildFile; productRef = 159AB0AE2C4C31F5006C809B /* SwiftBasicFormat */; };
+		159AB0B12C4C31F5006C809B /* SwiftCompilerPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 159AB0B02C4C31F5006C809B /* SwiftCompilerPlugin */; };
+		159AB0B32C4C31F5006C809B /* SwiftCompilerPluginMessageHandling in Frameworks */ = {isa = PBXBuildFile; productRef = 159AB0B22C4C31F5006C809B /* SwiftCompilerPluginMessageHandling */; };
+		159AB0B52C4C31F5006C809B /* SwiftDiagnostics in Frameworks */ = {isa = PBXBuildFile; productRef = 159AB0B42C4C31F5006C809B /* SwiftDiagnostics */; };
+		159AB0B72C4C31F5006C809B /* SwiftIDEUtils in Frameworks */ = {isa = PBXBuildFile; productRef = 159AB0B62C4C31F5006C809B /* SwiftIDEUtils */; };
+		159AB0B92C4C31F5006C809B /* SwiftOperators in Frameworks */ = {isa = PBXBuildFile; productRef = 159AB0B82C4C31F5006C809B /* SwiftOperators */; };
+		159AB0BB2C4C31F5006C809B /* SwiftParser in Frameworks */ = {isa = PBXBuildFile; productRef = 159AB0BA2C4C31F5006C809B /* SwiftParser */; };
+		159AB0BD2C4C31F5006C809B /* SwiftParserDiagnostics in Frameworks */ = {isa = PBXBuildFile; productRef = 159AB0BC2C4C31F5006C809B /* SwiftParserDiagnostics */; };
+		159AB0BF2C4C31F5006C809B /* SwiftRefactor in Frameworks */ = {isa = PBXBuildFile; productRef = 159AB0BE2C4C31F5006C809B /* SwiftRefactor */; };
+		159AB0C12C4C31F5006C809B /* SwiftSyntax in Frameworks */ = {isa = PBXBuildFile; productRef = 159AB0C02C4C31F5006C809B /* SwiftSyntax */; };
+		159AB0C32C4C31F5006C809B /* SwiftSyntaxBuilder in Frameworks */ = {isa = PBXBuildFile; productRef = 159AB0C22C4C31F5006C809B /* SwiftSyntaxBuilder */; };
+		159AB0C52C4C31F5006C809B /* SwiftSyntaxMacroExpansion in Frameworks */ = {isa = PBXBuildFile; productRef = 159AB0C42C4C31F5006C809B /* SwiftSyntaxMacroExpansion */; };
+		159AB0C72C4C31F5006C809B /* SwiftSyntaxMacros in Frameworks */ = {isa = PBXBuildFile; productRef = 159AB0C62C4C31F5006C809B /* SwiftSyntaxMacros */; };
+		15E884EA2C4EB08E006708CF /* Notification+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E884E92C4EB08E006708CF /* Notification+Extensions.swift */; };
+		15E884EC2C4EC860006708CF /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E884EB2C4EC860006708CF /* ContentViewModel.swift */; };
+		15E884EE2C4ECF4A006708CF /* WebViewNavigationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E884ED2C4ECF4A006708CF /* WebViewNavigationDelegate.swift */; };
+		15FF120E2C73F8B300DBDEAE /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FF120D2C73F8B300DBDEAE /* URL+Extensions.swift */; };
+		15FF12102C73FE9A00DBDEAE /* URLExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FF120F2C73FE9A00DBDEAE /* URLExtensionsTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,17 +58,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15253FEA2C76AF9800636889 /* Idioms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Idioms.swift; path = ../../../Idioms.swift; sourceTree = "<group>"; };
+		15253FF02C76BE0D00636889 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		157D532A2C754A45002CC772 /* RecentFilesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentFilesManager.swift; sourceTree = "<group>"; };
+		157D532C2C755209002CC772 /* README - Swift To Mermaid.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "README - Swift To Mermaid.md"; sourceTree = "<group>"; };
 		159AB07B2C4C2FAB006C809B /* SwiftToMermaid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftToMermaid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		159AB07E2C4C2FAB006C809B /* SwiftToMermaidApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftToMermaidApp.swift; sourceTree = "<group>"; };
-		159AB0802C4C2FAB006C809B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		159AB0822C4C2FAD006C809B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		159AB0842C4C2FAD006C809B /* SwiftToMermaid.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftToMermaid.entitlements; sourceTree = "<group>"; };
 		159AB0862C4C2FAD006C809B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		159AB08C2C4C2FAD006C809B /* SwiftToMermaidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftToMermaidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		159AB0902C4C2FAD006C809B /* SwiftToMermaidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftToMermaidTests.swift; sourceTree = "<group>"; };
+		159AB0902C4C2FAD006C809B /* ContentViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModelTests.swift; sourceTree = "<group>"; };
 		159AB0962C4C2FAD006C809B /* SwiftToMermaidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftToMermaidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		159AB09A2C4C2FAD006C809B /* SwiftToMermaidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftToMermaidUITests.swift; sourceTree = "<group>"; };
 		159AB09C2C4C2FAD006C809B /* SwiftToMermaidUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftToMermaidUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		159AB0A92C4C2FF0006C809B /* SwiftToMermaid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftToMermaid.swift; sourceTree = "<group>"; };
+		159AB0AA2C4C2FF1006C809B /* PaneView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaneView.swift; sourceTree = "<group>"; };
+		15E884E92C4EB08E006708CF /* Notification+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Notification+Extensions.swift"; path = "../Notification+Extensions.swift"; sourceTree = "<group>"; };
+		15E884EB2C4EC860006708CF /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		15E884ED2C4ECF4A006708CF /* WebViewNavigationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewNavigationDelegate.swift; sourceTree = "<group>"; };
+		15FF120D2C73F8B300DBDEAE /* URL+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "URL+Extensions.swift"; path = "../URL+Extensions.swift"; sourceTree = "<group>"; };
+		15FF120F2C73FE9A00DBDEAE /* URLExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLExtensionsTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +86,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				159AB0C52C4C31F5006C809B /* SwiftSyntaxMacroExpansion in Frameworks */,
+				159AB0C32C4C31F5006C809B /* SwiftSyntaxBuilder in Frameworks */,
+				159AB0BD2C4C31F5006C809B /* SwiftParserDiagnostics in Frameworks */,
+				159AB0BB2C4C31F5006C809B /* SwiftParser in Frameworks */,
+				159AB0B92C4C31F5006C809B /* SwiftOperators in Frameworks */,
+				15569CBF2C4C3CAE00505623 /* SourceKittenFramework in Frameworks */,
+				159AB0B12C4C31F5006C809B /* SwiftCompilerPlugin in Frameworks */,
+				159AB0B52C4C31F5006C809B /* SwiftDiagnostics in Frameworks */,
+				159AB0AF2C4C31F5006C809B /* SwiftBasicFormat in Frameworks */,
+				159AB0C72C4C31F5006C809B /* SwiftSyntaxMacros in Frameworks */,
+				159AB0B72C4C31F5006C809B /* SwiftIDEUtils in Frameworks */,
+				159AB0C12C4C31F5006C809B /* SwiftSyntax in Frameworks */,
+				159AB0BF2C4C31F5006C809B /* SwiftRefactor in Frameworks */,
+				159AB0B32C4C31F5006C809B /* SwiftCompilerPluginMessageHandling in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				155EB4E02C4D7D7500D9E73F /* SourceKittenFramework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,9 +121,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15253FEC2C76BA9200636889 /* Tooling */ = {
+			isa = PBXGroup;
+			children = (
+				15253FEA2C76AF9800636889 /* Idioms.swift */,
+				15E884E92C4EB08E006708CF /* Notification+Extensions.swift */,
+				15FF120D2C73F8B300DBDEAE /* URL+Extensions.swift */,
+			);
+			path = Tooling;
+			sourceTree = "<group>";
+		};
+		15253FED2C76BAAC00636889 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				15253FF02C76BE0D00636889 /* ContentView.swift */,
+				159AB0AA2C4C2FF1006C809B /* PaneView.swift */,
+				15E884ED2C4ECF4A006708CF /* WebViewNavigationDelegate.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		15253FEE2C76BAC300636889 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				15E884EB2C4EC860006708CF /* ContentViewModel.swift */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+		15253FEF2C76BAFC00636889 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				157D532A2C754A45002CC772 /* RecentFilesManager.swift */,
+				159AB07E2C4C2FAB006C809B /* SwiftToMermaidApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		159AB0722C4C2FAB006C809B = {
 			isa = PBXGroup;
 			children = (
+				157D532C2C755209002CC772 /* README - Swift To Mermaid.md */,
 				159AB07D2C4C2FAB006C809B /* SwiftToMermaid */,
 				159AB08F2C4C2FAD006C809B /* SwiftToMermaidTests */,
 				159AB0992C4C2FAD006C809B /* SwiftToMermaidUITests */,
@@ -95,8 +182,11 @@
 		159AB07D2C4C2FAB006C809B /* SwiftToMermaid */ = {
 			isa = PBXGroup;
 			children = (
-				159AB07E2C4C2FAB006C809B /* SwiftToMermaidApp.swift */,
-				159AB0802C4C2FAB006C809B /* ContentView.swift */,
+				15253FEF2C76BAFC00636889 /* App */,
+				15253FEE2C76BAC300636889 /* Data Model */,
+				15253FEC2C76BA9200636889 /* Tooling */,
+				15253FED2C76BAAC00636889 /* Views */,
+				159AB0A92C4C2FF0006C809B /* SwiftToMermaid.swift */,
 				159AB0822C4C2FAD006C809B /* Assets.xcassets */,
 				159AB0842C4C2FAD006C809B /* SwiftToMermaid.entitlements */,
 				159AB0852C4C2FAD006C809B /* Preview Content */,
@@ -115,7 +205,8 @@
 		159AB08F2C4C2FAD006C809B /* SwiftToMermaidTests */ = {
 			isa = PBXGroup;
 			children = (
-				159AB0902C4C2FAD006C809B /* SwiftToMermaidTests.swift */,
+				159AB0902C4C2FAD006C809B /* ContentViewModelTests.swift */,
+				15FF120F2C73FE9A00DBDEAE /* URLExtensionsTests.swift */,
 			);
 			path = SwiftToMermaidTests;
 			sourceTree = "<group>";
@@ -145,6 +236,22 @@
 			dependencies = (
 			);
 			name = SwiftToMermaid;
+			packageProductDependencies = (
+				159AB0AE2C4C31F5006C809B /* SwiftBasicFormat */,
+				159AB0B02C4C31F5006C809B /* SwiftCompilerPlugin */,
+				159AB0B22C4C31F5006C809B /* SwiftCompilerPluginMessageHandling */,
+				159AB0B42C4C31F5006C809B /* SwiftDiagnostics */,
+				159AB0B62C4C31F5006C809B /* SwiftIDEUtils */,
+				159AB0B82C4C31F5006C809B /* SwiftOperators */,
+				159AB0BA2C4C31F5006C809B /* SwiftParser */,
+				159AB0BC2C4C31F5006C809B /* SwiftParserDiagnostics */,
+				159AB0BE2C4C31F5006C809B /* SwiftRefactor */,
+				159AB0C02C4C31F5006C809B /* SwiftSyntax */,
+				159AB0C22C4C31F5006C809B /* SwiftSyntaxBuilder */,
+				159AB0C42C4C31F5006C809B /* SwiftSyntaxMacroExpansion */,
+				159AB0C62C4C31F5006C809B /* SwiftSyntaxMacros */,
+				15569CBE2C4C3CAE00505623 /* SourceKittenFramework */,
+			);
 			productName = SwiftToMermaid;
 			productReference = 159AB07B2C4C2FAB006C809B /* SwiftToMermaid.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +324,10 @@
 				Base,
 			);
 			mainGroup = 159AB0722C4C2FAB006C809B;
+			packageReferences = (
+				159AB0AD2C4C31F5006C809B /* XCRemoteSwiftPackageReference "swift-syntax" */,
+				15569CBD2C4C3CAE00505623 /* XCRemoteSwiftPackageReference "SourceKitten" */,
+			);
 			productRefGroup = 159AB07C2C4C2FAB006C809B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +370,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				159AB0812C4C2FAB006C809B /* ContentView.swift in Sources */,
+				159AB0AB2C4C2FF1006C809B /* SwiftToMermaid.swift in Sources */,
+				15FF120E2C73F8B300DBDEAE /* URL+Extensions.swift in Sources */,
+				157D532B2C754A45002CC772 /* RecentFilesManager.swift in Sources */,
 				159AB07F2C4C2FAB006C809B /* SwiftToMermaidApp.swift in Sources */,
+				15E884EE2C4ECF4A006708CF /* WebViewNavigationDelegate.swift in Sources */,
+				15E884EA2C4EB08E006708CF /* Notification+Extensions.swift in Sources */,
+				15253FF12C76BE0D00636889 /* ContentView.swift in Sources */,
+				159AB0AC2C4C2FF1006C809B /* PaneView.swift in Sources */,
+				15253FEB2C76AF9800636889 /* Idioms.swift in Sources */,
+				15E884EC2C4EC860006708CF /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +387,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				159AB0912C4C2FAD006C809B /* SwiftToMermaidTests.swift in Sources */,
+				159AB0912C4C2FAD006C809B /* ContentViewModelTests.swift in Sources */,
+				15FF12102C73FE9A00DBDEAE /* URLExtensionsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,7 +454,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -349,7 +469,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -395,7 +517,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -404,7 +526,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -617,6 +741,103 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		15569CBD2C4C3CAE00505623 /* XCRemoteSwiftPackageReference "SourceKitten" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jpsim/SourceKitten.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.35.0;
+			};
+		};
+		159AB0AD2C4C31F5006C809B /* XCRemoteSwiftPackageReference "swift-syntax" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-syntax.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 510.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		15569CBE2C4C3CAE00505623 /* SourceKittenFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 15569CBD2C4C3CAE00505623 /* XCRemoteSwiftPackageReference "SourceKitten" */;
+			productName = SourceKittenFramework;
+		};
+		155EB4DF2C4D7D7500D9E73F /* SourceKittenFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 15569CBD2C4C3CAE00505623 /* XCRemoteSwiftPackageReference "SourceKitten" */;
+			productName = SourceKittenFramework;
+		};
+		159AB0AE2C4C31F5006C809B /* SwiftBasicFormat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 159AB0AD2C4C31F5006C809B /* XCRemoteSwiftPackageReference "swift-syntax" */;
+			productName = SwiftBasicFormat;
+		};
+		159AB0B02C4C31F5006C809B /* SwiftCompilerPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 159AB0AD2C4C31F5006C809B /* XCRemoteSwiftPackageReference "swift-syntax" */;
+			productName = SwiftCompilerPlugin;
+		};
+		159AB0B22C4C31F5006C809B /* SwiftCompilerPluginMessageHandling */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 159AB0AD2C4C31F5006C809B /* XCRemoteSwiftPackageReference "swift-syntax" */;
+			productName = SwiftCompilerPluginMessageHandling;
+		};
+		159AB0B42C4C31F5006C809B /* SwiftDiagnostics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 159AB0AD2C4C31F5006C809B /* XCRemoteSwiftPackageReference "swift-syntax" */;
+			productName = SwiftDiagnostics;
+		};
+		159AB0B62C4C31F5006C809B /* SwiftIDEUtils */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 159AB0AD2C4C31F5006C809B /* XCRemoteSwiftPackageReference "swift-syntax" */;
+			productName = SwiftIDEUtils;
+		};
+		159AB0B82C4C31F5006C809B /* SwiftOperators */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 159AB0AD2C4C31F5006C809B /* XCRemoteSwiftPackageReference "swift-syntax" */;
+			productName = SwiftOperators;
+		};
+		159AB0BA2C4C31F5006C809B /* SwiftParser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 159AB0AD2C4C31F5006C809B /* XCRemoteSwiftPackageReference "swift-syntax" */;
+			productName = SwiftParser;
+		};
+		159AB0BC2C4C31F5006C809B /* SwiftParserDiagnostics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 159AB0AD2C4C31F5006C809B /* XCRemoteSwiftPackageReference "swift-syntax" */;
+			productName = SwiftParserDiagnostics;
+		};
+		159AB0BE2C4C31F5006C809B /* SwiftRefactor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 159AB0AD2C4C31F5006C809B /* XCRemoteSwiftPackageReference "swift-syntax" */;
+			productName = SwiftRefactor;
+		};
+		159AB0C02C4C31F5006C809B /* SwiftSyntax */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 159AB0AD2C4C31F5006C809B /* XCRemoteSwiftPackageReference "swift-syntax" */;
+			productName = SwiftSyntax;
+		};
+		159AB0C22C4C31F5006C809B /* SwiftSyntaxBuilder */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 159AB0AD2C4C31F5006C809B /* XCRemoteSwiftPackageReference "swift-syntax" */;
+			productName = SwiftSyntaxBuilder;
+		};
+		159AB0C42C4C31F5006C809B /* SwiftSyntaxMacroExpansion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 159AB0AD2C4C31F5006C809B /* XCRemoteSwiftPackageReference "swift-syntax" */;
+			productName = SwiftSyntaxMacroExpansion;
+		};
+		159AB0C62C4C31F5006C809B /* SwiftSyntaxMacros */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 159AB0AD2C4C31F5006C809B /* XCRemoteSwiftPackageReference "swift-syntax" */;
+			productName = SwiftSyntaxMacros;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 159AB0732C4C2FAB006C809B /* Project object */;
 }
